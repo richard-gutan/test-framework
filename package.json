@@ -1,0 +1,13 @@
+{
+    "name": "test-framework",
+    "version": "1.0.0",
+    "devDependencies": {
+        "@types/node": "18.17.3",
+        "typescript": "5.0.4"
+    },
+    "scripts": {
+        "start": "node out/dev-server",
+        "compile": "npx tsc",
+        "test": "node out/main.spec.js"
+    }
+}
